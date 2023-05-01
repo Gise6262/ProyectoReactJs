@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 10px solid rgb(191, 67, 67);
+    font-size: 30px;
+    background-color: rgb(246, 182, 137);
+    padding: 20px;
+}
+strong {
+    font-size: 20px;
+}
+li {
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 22px;
+
+}
