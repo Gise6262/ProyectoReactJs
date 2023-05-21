@@ -1,0 +1,16 @@
+.contenedorProductos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 20px;
+    background-color: rgb(191, 67, 67);
+    padding: 20px;
+    color: rgb(253, 253, 253);
+    margin: 5rem;
+    margin-bottom: auto;
+    padding: 70px;
+    border: 2px solid;
+    gap: 10px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}

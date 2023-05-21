@@ -4,16 +4,40 @@ header {
     justify-content: space-between;
     border-bottom: 10px solid rgb(191, 67, 67);
     font-size: 30px;
-    background-color: rgb(246, 182, 137);
+    background-color: rgb(35, 31, 32);
     padding: 20px;
+}
+.logoSquad {
+    width: 11rem;
+    padding: 5px;
+    transition: 1s;
+}
+.logoSquad:hover {
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #250703;
+    -webkit-box-shadow: 0px 0px 15px 15px #a40b0b;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    }
+
+.tituloPrincipal {
+    color: rgb(209, 8, 8);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    
 }
 strong {
     font-size: 20px;
+    color: aliceblue;
 }
-li {
+li  {
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
     cursor: pointer;
     font-size: 22px;
-
+    color: aliceblue;
+    background-color: rgb(197, 95, 95);
+    border-radius: 10px;
+    padding: 10px;
 }

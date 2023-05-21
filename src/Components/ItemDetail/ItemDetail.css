@@ -1,0 +1,14 @@
+.contenedorItem {
+    font-size: 30px;
+    background-color: rgb(46, 39, 39);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    margin: 5rem;
+    padding: 20px;
+    border: 3px solid;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.imgDetail{
+    width: 45rem;
+}
