@@ -8,24 +8,25 @@ const NavBar = () => {
       <Link to={"/"}>
       <img className="logoSquad" src="./Squad.png" alt="Squad Gamer Latam" />
       </Link>
-        <h2 className="tituloPrincipal">Squad Gamer</h2>
+        <h2 className="tituloPrincipal">Squad Gamers</h2>
         <nav>
             <ul>
                 <li>
-                  <NavLink to={`/categoria/1`}> Supervivencia </NavLink>
+                  <NavLink className="categorias" to={`/categoria/1`}> Supervivencia </NavLink>
                 </li>
                 <li>
-                  <NavLink to={`/categoria/2`}> Estrategia </NavLink>
+                  <NavLink className="categorias" to={`/categoria/2`}> Estrategia </NavLink>
                 </li>
                 <li>
-                  <NavLink to={`/categoria/3`}> MOBA </NavLink>
+                  <NavLink className="categorias" to={`/categoria/3`}> MOBA </NavLink>
                 </li>
                 <li>
-                  <NavLink to={`/categoria/4`}> Simulacion </NavLink>
+                  <NavLink className="categorias" to={`/categoria/4`}> Shooter </NavLink>
                 </li>
                 <li>
-                  <NavLink to={`/categoria/5`}> Arcade </NavLink>
+                  <NavLink className="categorias" to={`/categoria/5`}> Arcade </NavLink>
                 </li>
+
 
             </ul>
         </nav>

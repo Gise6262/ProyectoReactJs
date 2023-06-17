@@ -1,6 +1,6 @@
 .contenedorItem {
     font-size: 30px;
-    background-color: rgb(46, 39, 39);
+    background-color: rgb(39, 26, 26);
     padding: 20px;
     color: rgb(255, 255, 255);
     margin: 5rem;
@@ -12,3 +12,18 @@
 .imgDetail{
     width: 45rem;
 }
+.terminarCompra {
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 2rem;
+    background-color: rgb(218, 116, 120);
+    color: black;
+}
+.terminarCompra:hover{
+    color: aliceblue;
+    background-color: rgb(78, 75, 75);
+    border: 3px solid rgba(233, 201, 201, 0.991);
+}
+
+    

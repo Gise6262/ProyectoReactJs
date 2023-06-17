@@ -1,0 +1,40 @@
+.formulario {
+    box-sizing: border-box;
+    width: 50%;
+    color: rgb(247, 239, 239);
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    background: rgb(34, 33, 29);
+    margin: auto;
+    border-radius: 10px;
+    border: 3px solid rgb(248, 95, 81);
+    background-color: rgb(83, 37, 37);
+    font-family: 'Orbitron', sans-serif;
+
+}
+.finCompra {
+    width: 150px;
+    background-color: rgb(43, 36, 36);
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    margin: 2rem;
+    border: 3px solid rgb(248, 95, 81);
+    border-radius: 50px;
+}
+.finCompra:hover {
+    background-color: rgb(248, 95, 81) ;
+    color: black;
+}
+.check {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    border: 3px solid rgb(248, 95, 81);
+    padding: 20px;
+}
+strong{
+    font-size: 30px;
+    padding: 110px;
+}
